@@ -2,3 +2,129 @@
     margin: 0;
     padding: 0;
 }
+
+body{
+    background: url(/portfolio/files/assests/bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: Arial, sans-serif;
+    color: white;
+}
+
+nav{
+    background-color: #333;
+    padding: 10px;
+    height: 36px;
+    align-content: center;
+    position: sticky;
+    top: 0;
+}
+
+ul.nav-list{
+    list-style: none;
+    display: inline-flex;
+    float: right;
+    cursor: pointer;
+}
+
+li{
+    margin: 0 15px;
+}
+
+header{
+    text-align: center;margin-top: 50px;
+    margin-bottom: 100px;
+    padding: 20px;
+}
+
+button{
+    background-color: skyblue;
+    color: gray;
+    font-weight: bolder;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 9px;
+    margin-top: 27px;
+}
+
+main{
+    text-align: center;
+    margin-top: 50px;
+}
+
+#skills{
+    justify-content: center;
+    text-align: center;
+    background-color: black;
+}
+
+#skills-list {
+    list-style: none;
+    display: inline-flex;
+    margin-bottom: 54px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.s-list{
+    border: 1px solid gray;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+    background-color: white;
+    color: black;
+    visibility:inherit;
+}
+
+
+#projects{
+    text-align: center;
+    margin-top: 150px;
+    background-color: #333;
+}
+
+.p-list
+{
+    list-style: none;
+    display: inline-flex;
+    justify-content: center;
+    margin-bottom: 54px;
+    margin-top: 27px;
+}
+
+footer{
+    text-align: center;
+    margin-top: 250px;
+    padding: 20px;
+    background-color: #333;
+}
+
+h2{
+    padding-top: 54px;
+}
+
+h1
+{
+    padding-top: 54px;
+}
+
+@media screen and (max-width: 600px) {
+    
+    header {
+        margin-top: 20px;
+        margin-bottom: 50px;
+    }
+    
+    button {
+        width: 50%;
+        padding: 15px;
+        font-size: 16px;
+    }
+    
+    #skills-list {
+        display: inline-block;
+    }
+    
+}

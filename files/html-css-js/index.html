@@ -8,34 +8,50 @@
 </head>
 <body>
     <nav>
-        <ul>
-            <li>Home</li>
-            <li>Skills</li>
-            <li>Projects</li>
-            <li>Contact</li>
+        <ul class="nav-list">
+            <li onclick="location.replace('#hero')">Home</li>
+            <li onclick="location.replace('#skills')">Skills</li>
+            <li onclick="location.replace('#projects')">Projects</li>
+            <li onclick="location.replace('#contact')">Contact</li>
         </ul>
     </nav>
 
+    <header id="hero">
+        <h1>Hello I am ......</h1>
+        <p>A ......</p>
+        <button>Get In Touch</button>
+    </header>
     <main>
-        <header>
-            <h1>Hello I am ......</h1>
-            <p>A ......</p>
-        </header>
         
         <section id="skills">
+            <br><br>
             <h2>Skills</h2>
-            <ul>
-                <li>HTML</li>
-                <li>CSS</li>
-                <li>JavaScript</li>
-                <li>React</li>
-                <li>Git & GItHub</li>
-                <li>Python</li>
+            <ul id="skills-list">
+                <li class="s-list">HTML</li>
+                <li class="s-list">CSS</li>
+                <li class="s-list">JavaScript</li>
+                <li class="s-list">React</li>
+                <li class="s-list">Git & GItHub</li>
+                <li class="s-list">Python</li>
+            </ul>
+        </section>
+        
+
+        <section id="projects">
+            <br><br>
+            <h2>Projects</h2>
+            <ul id="projects-list">
+                <li class="p-list">Project 1</li>
+                <li class="p-list">Project 2</li>
+                <li class="p-list">Project 3</li>
+                <li class="p-list">Project 4</li>
+                <li class="p-list">Project 5</li>
             </ul>
         </section>
     </main>
 
     <footer id="contact">
+        <br><br>
         <h2>Get in Touch</h2>
     </footer>
 </body>
